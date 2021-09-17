@@ -61,6 +61,8 @@ ul li {
 
 .header-link:hover,
 .header-link:focus,
+.header-contacts:hover,
+.header-contacts:focus,
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--accent-color);
@@ -70,9 +72,9 @@ ul li {
     color: var(--accent-color);
   }
 
-  .header-contact-link {
+  .header-contact-link,.header-contacts {
     font-weight: 500;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
   }
@@ -158,6 +160,16 @@ color: #FFFFFF;
     background-color: #f5f4fa;
   }
   
+.team-title {
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
   .team-list-title {
     font-weight: 500;
     font-size: 16px;
@@ -223,13 +235,13 @@ color: #FFFFFF;
   }
 
   .practice-btn {
-position: absolute;
-width: 145px;
-height: 38px;
-left: 712px;
-top: 174px;
-background: #F5F4FA;
-border-radius: 4px;
+    position: absolute;
+    width: 145px;
+    height: 38px;
+    left: 712px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
   }
   
   
