@@ -111,7 +111,7 @@ ul li {
 }
 
 .about {
-  background-color: var(--background-color);
+  background-color: var(--tertiary-text-color);
 }
 
 .about-list-title {
