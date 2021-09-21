@@ -63,7 +63,7 @@ ul li {
   color: var(--accent-color);
 }
 
-.header-link-portfolio {
+.header-link-studio {
   color: var(--accent-color);
 }
 
@@ -97,9 +97,11 @@ ul li {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--main-text-color);
+  color: var(--tertiary-text-color);
   background-color: var(--background-btn-color);
+  background: #2196f3;
   cursor: pointer;
+  b
 }
 
 .hero-btn:hover,
