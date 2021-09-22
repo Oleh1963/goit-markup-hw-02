@@ -22,6 +22,7 @@ a {
 
 button {
   border: none;
+  color: ;
 }
 
 ul li {
@@ -101,12 +102,11 @@ ul li {
   background-color: var(--background-btn-color);
   background: #2196f3;
   cursor: pointer;
-  b
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--accent-color);
+  background-color: #188CE8;
   color: var(--tertiary-text-color);
 }
 
